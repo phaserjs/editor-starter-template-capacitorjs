@@ -1,6 +1,4 @@
-# CapacitorJS project template for Phaser Editor 2D
-
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/PhaserEditor2D/starter-template-capacitorjs)
+# CapacitorJS project template for Phaser Editor v4
 
 This a project template for building your Phaser 3 game into a native wrapper for different platforms.
 
@@ -72,34 +70,7 @@ This project requires [Node.js](https://nodejs.org) and [NPM.js](https://www.npm
 
     Then you build the app with Xcode.
 
-## Run the editor
-
-* You can run the editor using the `editor` NPM script, defined in the `package.json` file:
-
-    ```bash
-    $ npm install
-    $ npm run editor
-    ```
-
-* If you are in a remote environment (like the Gitpod.io IDE), then run the editor like this:
-
-    ```bash
-    $ npm run editor-remote
-    ```
-
-* If you want to see all the editor options, run:
-
-    ```bash
-    $ npx phasereditor2d-launcher -help
-    ```
-
-* If Phaser Editor 2D Core is globally installed, you can run:
-
-    ```bash
-    $ PhaserEditor2D -project .
-    ```
-
-## Phaser Editor 2D considerations
+## Phaser Editor considerations
 
 ### Excluding files from the project
 
@@ -149,8 +120,8 @@ The Scenes, User Components, and ScriptNodes are configured to compile to TypeSc
 
 The project requires the following script libraries:
 
-* [@phasereditor2d/scripts-core](https://www.npmjs.com/package/@phasereditor2d/scripts-core)
-* [@phasereditor2d/scripts-simple-animations](https://www.npmjs.com/package/@phasereditor2d/scripts-simple-animations)
+* [@phaserjs/editor-scripts-core](https://www.npmjs.com/package/@phaserjs/editor-scripts-core)
+* [@phaserjs/editor-scripts-simple-animations](https://www.npmjs.com/package/@phaserjs/editor-scripts-simple-animations)
 
 You can add your script nodes to the `src/script-nodes` folder.
 

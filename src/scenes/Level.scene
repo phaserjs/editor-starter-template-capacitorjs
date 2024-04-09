@@ -64,7 +64,7 @@
             "y": 458,
             "originX": 0.5,
             "originY": 0.5,
-            "text": "Phaser 3 + Phaser Editor 2D\nWebpack + TypeScript\nCapacitorJS",
+            "text": "Phaser 3 + Phaser Editor v4\nWebpack + TypeScript\nCapacitorJS",
             "align": "center",
             "fontFamily": "Arial",
             "fontSize": "3em",

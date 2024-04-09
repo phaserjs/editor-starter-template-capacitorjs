@@ -4,11 +4,11 @@
 /* START OF COMPILED CODE */
 
 import Phaser from "phaser";
-import { OnPointerDownScript } from "@phasereditor2d/scripts-core";
-import { PushActionScript } from "@phasereditor2d/scripts-simple-animations";
-import { OnAwakeScript } from "@phasereditor2d/scripts-core";
-import { MoveInSceneActionScript } from "@phasereditor2d/scripts-simple-animations";
-import { DurationConfigComp } from "@phasereditor2d/scripts-simple-animations";
+import { OnPointerDownScript } from "@phaserjs/editor-scripts-core";
+import { PushActionScript } from "@phaserjs/editor-scripts-simple-animations";
+import { OnAwakeScript } from "@phaserjs/editor-scripts-core";
+import { MoveInSceneActionScript } from "@phaserjs/editor-scripts-simple-animations";
+import { DurationConfigComp } from "@phaserjs/editor-scripts-simple-animations";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
@@ -42,7 +42,7 @@ export default class Level extends Phaser.Scene {
 		// text
 		const text = this.add.text(640, 458, "", {});
 		text.setOrigin(0.5, 0.5);
-		text.text = "Phaser 3 + Phaser Editor 2D\nWebpack + TypeScript\nCapacitorJS";
+		text.text = "Phaser 3 + Phaser Editor v4\nWebpack + TypeScript\nCapacitorJS";
 		text.setStyle({ "align": "center", "fontFamily": "Arial", "fontSize": "3em" });
 
 		// onAwakeScript_1
