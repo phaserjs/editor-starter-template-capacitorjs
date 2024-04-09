@@ -1,3 +1,7 @@
+## v2.0.0 - Apr 9, 2024
+
+* Migrates to Phaser Editor v4.
+
 ## v1.3.5 - Dec 10, 2023
 
 * Migrates to the new script node libraries.
