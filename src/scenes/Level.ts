@@ -3,12 +3,11 @@
 
 /* START OF COMPILED CODE */
 
-import Phaser from "phaser";
-import { OnPointerDownScript } from "@phaserjs/editor-scripts-core";
-import { PushActionScript } from "@phaserjs/editor-scripts-simple-animations";
-import { OnAwakeScript } from "@phaserjs/editor-scripts-core";
-import { MoveInSceneActionScript } from "@phaserjs/editor-scripts-simple-animations";
-import { DurationConfigComp } from "@phaserjs/editor-scripts-simple-animations";
+import { OnPointerDownScript } from "@phaserjs/editor-scripts-quick";
+import { PushActionScript } from "@phaserjs/editor-scripts-quick";
+import { OnAwakeScript } from "@phaserjs/editor-scripts-quick";
+import { MoveInSceneActionScript } from "@phaserjs/editor-scripts-quick";
+import { DurationConfigComp } from "@phaserjs/editor-scripts-quick";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 
