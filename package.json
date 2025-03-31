@@ -20,7 +20,7 @@
     "@capacitor/ios": "^4.8.2",
     "@phaserjs/editor-scripts-base": "^1.0.0",
     "@phaserjs/editor-scripts-quick": "^1.0.0",
-    "phaser": "^3.80.1"
+    "phaser": "^3.88.2"
   },
   "devDependencies": {
     "@capacitor/cli": "^4.8.2",
